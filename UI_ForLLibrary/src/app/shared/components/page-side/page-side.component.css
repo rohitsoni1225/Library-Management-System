@@ -1,0 +1,17 @@
+mat-card{
+    margin: 0.5rem auto;
+    border: 1px solid white;
+    width: 90%;
+    h1{
+        letter-spacing: 3px;
+        text-align: center;
+    }
+}
+
+mat-nav-list{
+    a{
+        &.active-link{
+            background-color: rgb(101, 167, 225);
+        }
+    }
+}
